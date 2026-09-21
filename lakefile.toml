@@ -1,0 +1,10 @@
+name = "datastar"
+version = "0.1.0"
+defaultTargets = ["Datastar", "hello-world"]
+
+[[lean_lib]]
+name = "Datastar"
+
+[[lean_exe]]
+name = "hello-world"
+root = "Examples.HelloWorld"
